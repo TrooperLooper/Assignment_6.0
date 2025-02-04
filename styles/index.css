@@ -1,0 +1,63 @@
+p {
+    font-family: "poppins";
+    font-weight: 400;
+}
+
+
+li {
+    font-family: "poppins";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+h3  {
+    font-family: "Poppins", serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  button {
+    height: 53px;
+    width: 175px;
+    background-color: #FF9900;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 16;
+    font-weight: 700;
+    font-style: normal;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .signupbtn {
+    justify-items: center;
+    font-family: "Poppins", serif;
+    font-size: 16;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
