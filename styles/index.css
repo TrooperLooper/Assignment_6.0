@@ -1,17 +1,14 @@
-p {
+p, .checkline {
     font-family: "poppins";
     font-weight: 400;
 }
 
 
-li {
+ul {
     display: inline
     font-family: "poppins";
     font-size: 16px;
     font-weight: 400;
-    float: left;
-    
-
 }
 
 h1 {
@@ -60,12 +57,12 @@ h5  {
 
 section {
     display: flex;
-    justify-self: left;
+    justify-content: left;
     margin-left: 145px;
     width: 100vh;
 }
 
-.topnav {
+nav {
 display: inline
 
 }
@@ -77,10 +74,19 @@ display: inline
 
 
 .icons {
+    width: 240px;
     display: flex;
 align-content: column
-    
+
 }
+
+.group {
+    width: 100vh;
+   display: flexbox;
+   justify-content: space-around;
+   align-content: column;
+}
+    
 
  button {
     height: 53px;
@@ -93,7 +99,7 @@ align-content: column
     font-style: normal;
     border: none;
     border-radius: 4px;
-    margin: 40px;
+    margin: 20px;
 }
 
 .button__smallwhite {
@@ -103,6 +109,12 @@ align-content: column
     color: #FF9900;
     border: 2px solid#FF9900
 }
+
+.tickbox {
+    display: inline;
+    margin-right: 10px;
+}
+
 
 .button__smallorange {
     height: 46px;
@@ -119,6 +131,22 @@ align-content: column
 
 }
 
+.endfooter {
+    display: flexbox;
+    justify-content: center;
+    font-family: "poppins";
+    font-weight: 400;
 
+}
 
+.checkline {
+    display: flexbox;
+align-content: center;
+flex-direction: row;
+margin-right: 10 px;
+}
 
+.list {
+    display: flexbox;
+    align-content: column;
+}
