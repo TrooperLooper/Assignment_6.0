@@ -59,32 +59,63 @@ section {
     display: flex;
     justify-content: left;
     margin-left: 145px;
-    width: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-nav {
-display: inline
+header {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topnav {
+max-width: 400px;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
 
 }
 
-.links {
-    display: inline;
-    justify-content: end;
+.images {
+    max-width: 200px;
+    width: 100&;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav li {
+margin-left: 20px;
+list-style: none;
+}
+
+body {
+    max-width: 1200px;
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column  
 }
 
 
 .icons {
     width: 240px;
     display: flex;
-align-content: column
 
 }
 
 .group {
-    width: 100vh;
+    max-width: 300px;
+    width: 100%;
    display: flexbox;
    justify-content: space-around;
-   align-content: column;
+   align-content: space-around;
 }
     
 
@@ -110,6 +141,14 @@ align-content: column
     border: 2px solid#FF9900
 }
 
+.button__smallwhite:hover {
+    background-color: white;
+    color: #ef3901f4;
+    border: 2px solid #ef3901f4;
+
+} 
+    
+
 .tickbox {
     display: inline;
     margin-right: 10px;
@@ -124,6 +163,13 @@ align-content: column
     color: white;    
 }
 
+.button__smallorange:hover {
+    background-color: #b84700;
+    color: white;
+} 
+
+
+
 .button:hover {
     background-color: #b84700;
     color: white;
@@ -132,21 +178,57 @@ align-content: column
 }
 
 .endfooter {
+    width: 100%;
     display: flexbox;
-    justify-content: center;
+    justify-content: space-evenly;
     font-family: "poppins";
     font-weight: 400;
 
 }
 
+.endfooter li {
+    margin-left: 20px;
+    list-style: none;
+    gap: 1;
+}
+
+.bottom {
+margin-bottom: 50px;
+margin-top: 10px;
+}
+
 .checkline {
-    display: flexbox;
-align-content: center;
+display: flexbox;
+align-content: baseline;
 flex-direction: row;
-margin-right: 10 px;
+margin-left: 10 px;
+gap: 2;
+}
+
+.checkbox {
+    margin-right: 20 px;
+    
+}
+
+.form {
+    margin-bottom: 10px;
 }
 
 .list {
-    display: flexbox;
+    display: flex;
     align-content: column;
+    width: 100%;
+    max-width: 400px;
+}
+
+.midbutton {
+    display: block;
+   justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    max-width: 400px;
+    width: 100%;
 }
